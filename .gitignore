@@ -22,3 +22,6 @@ out/
 
 /*.class
 *.class
+
+/*.
+*.jar
