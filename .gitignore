@@ -20,8 +20,12 @@ out/
 .iml
 /*.iml
 
-/*.class
+.class
+/.class
 *.class
+/*.class
 
-/*.jar
+.jar
+/.jar
 *.jar
+/*.
