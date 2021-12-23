@@ -1,4 +1,4 @@
-# Swing DB
+# StandAlone DB
 
 <details>
   <summary>
