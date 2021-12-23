@@ -32,7 +32,7 @@
   </summary>
 
 ```bash
-  VERSION=3.36.0.3
+  VERSION = 3.36.0.3
   rm -rf *.class && javac *.java && java -classpath .:sqlite-jdbc-${VERSION}.jar Main
 ```
 
