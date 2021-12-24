@@ -27,9 +27,9 @@ class Add_Employee extends DBConnection implements ActionListener {
     JTextField t1, t2, t3, t4, t5, t6, t7, t8, t9, t10;
     String[] p = {
             "Manager",
-            "Tester",
             "Developer",
             "Designer",
+            "Tester",
             "Accountant"
     };
     JComboBox jc;

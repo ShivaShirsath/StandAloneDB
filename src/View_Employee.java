@@ -23,7 +23,11 @@ class View_Employee extends DBConnection implements ActionListener {
     JTable table;
     DefaultTableModel model;
     JScrollPane js;
-    String[] s1 = {"Employee Name", "Employee ID", "Age", "Job Post", "BirthDate", "Gender", "Address", "Mobile NO.", "Email ID", "Education", "Join Date", "Salary", "Experience"};
+    String[] s1 = {
+"Employee Name", "Employee ID", "Age", "Job Post", 
+"BirthDate", "Gender", "Address", "Mobile NO.", 
+"Email ID", "Education", "Join Date", "Salary", 
+"Experience"};
 
     View_Employee() {
         frame.setVisible(true);
@@ -88,7 +92,7 @@ class View_Employee extends DBConnection implements ActionListener {
 
     public void insert() {
         try {
-            PreparedStatement st1 = con.prepareStatement("select *from employee");
+            PreparedStatement st1 = con.prepareStatement("select * from employee");
             ResultSet rs = st1.executeQuery();
 
             String s = t1.getText();
@@ -124,7 +128,7 @@ class View_Employee extends DBConnection implements ActionListener {
                 String s = t1.getText();
                 model.setRowCount(0);
 
-                PreparedStatement st2 = con.prepareStatement("select *from employee where id=?");
+                PreparedStatement st2 = con.prepareStatement("select * from employee where id=?");
                 st2.setString(1, s);
                 ResultSet rs = st2.executeQuery();
                 while (rs.next()) {
