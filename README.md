@@ -21,7 +21,7 @@
   
   - Bash Cammand
     ```bash
-      sudo apt install -y wget && cd StandAloneDB && wget https://github.com/xerial/sqlite-jdbc/releases/download/3.36.0.3/sqlite-jdbc-3.36.0.3.jar
+      sudo apt install -y wget && cd src && wget https://github.com/xerial/sqlite-jdbc/releases/download/3.36.0.3/sqlite-jdbc-3.36.0.3.jar
     ```
   
 </details>
