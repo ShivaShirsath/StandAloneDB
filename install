@@ -1,1 +1,8 @@
-sudo apt install -y wget && cd StandAloneDB && cd src && wget https://github.com/xerial/sqlite-jdbc/releases/download/3.36.0.3/sqlite-jdbc-3.36.0.3.jar
+#!/bin/bash
+
+sudo apt install -y wget
+cd StandAloneDB
+cd src
+rm -rf sqlite-jdbc-3.36.0.3.jar
+wget https://github.com/xerial/sqlite-jdbc/releases/download/3.36.0.3/sqlite-jdbc-3.36.0.3.jar
+echo -e ".jar file added to src"
