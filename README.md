@@ -35,6 +35,10 @@
   VERSION = 3.36.0.3
   rm -rf *.class && javac *.java && java -classpath .:sqlite-jdbc-${VERSION}.jar Main
 ```
+Or
+```bash
+  bash run
+```
 
 </details>
 
